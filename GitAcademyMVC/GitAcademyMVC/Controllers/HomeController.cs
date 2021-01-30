@@ -20,7 +20,7 @@ namespace GitAcademyMVC.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return Redirect("/User/Login");
         }
 
         public IActionResult Privacy()
